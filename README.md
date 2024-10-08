@@ -10,15 +10,14 @@
 
 ##############################################
 
-This R sample code takes at risk asset locations from https://city-tampa.opendata.arcgis.com/search?tags=Location and maps them against Reask (1km) forecast estimates for category 1 equivlant winds at each site.
+This R demo code takes at risk asset locations from https://city-tampa.opendata.arcgis.com/search?tags=Location and maps them against Reask's (1km) forecast estimates for category 1 equivalent winds at each site.
 
-Input
+Input:
 
-Databse.csv = a databse inlcudling police station, hospitals and fire station locations in Tampa Florida. Source: https://city-tampa.opendata.arcgis.com/search?tags=Location
+Databse.csv = a database including police station, hospitals and fire station locations in Tampa Florida. Source: https://city-tampa.opendata.arcgis.com/search?tags=Location
 
-LiveCyc_al142024_2024100706_ft_gust_exProba_Cat1.tiff = Reask cat 1 equaivalent wind speeds probabilities (1km resolution) at 06:00 UTC on 8th October 2024
+LiveCyc_al142024_2024100806_ft_gust_exProba_Cat1.tiff = Reask cat 1 equivalent wind speeds probabilities (1km resolution) at 06:00 UTC on 8th October 2024
 
-Output 
+Output:
 
-ReaskPlot.html = an interative map where locaiton level cat 1 wind speeds probabilites can be assess at each location in the asset database
-
+ReaskPlot.html = an interactive map where location level 

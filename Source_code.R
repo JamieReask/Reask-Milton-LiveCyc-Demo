@@ -81,7 +81,7 @@ tag.map.title <- tags$style(HTML("
 "))
 
 title <- tags$div(
-  tag.map.title, HTML("Reask wind-at-site Probabilites")
+  tag.map.title, HTML("Reask wind-at-site Probabilities")
 )  
 
 p = leaflet(data.to.plot) %>%

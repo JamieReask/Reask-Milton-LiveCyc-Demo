@@ -16,7 +16,7 @@ Input
 
 Databse.csv = a databse inlcudling police station, hospitals and fire station locations in Tampa Florida. Source: https://city-tampa.opendata.arcgis.com/search?tags=Location
 
-LiveCyc_al142024_2024100706_ft_gust_exProba_Cat1.tiff = Reask cat 1 equaivalent wind speeds probabilities (1km resolution)
+LiveCyc_al142024_2024100706_ft_gust_exProba_Cat1.tiff = Reask cat 1 equaivalent wind speeds probabilities (1km resolution) at 06:00 UTC on 8th October 2024
 
 Output 
 

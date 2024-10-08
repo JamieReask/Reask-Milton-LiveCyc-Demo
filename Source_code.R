@@ -3,7 +3,7 @@
 
 ## This software is provided "as-is," without any express or implied warranty. In no event shall the author(s) be held liable for any damages arising from the use of this software.
 
-## **Non-Commercial Use Only**: This code is licensed for personal and educational use only. You may not use, distribute, or modify this software for any commercial purposes, whether for-profit or non-profit, without explicit permission from the author(s).
+## **Non-Commercial Use Only**: This code and associated Reask data "LiveCyc_al142024_2024100806_ft_gust_exProba_Cat1.tiff" is licensed for personal and educational use only. You may not use, distribute, or modify this software or data for any commercial purposes, whether for-profit or non-profit, without explicit permission from the author(s).
 
 ## **No Liability**: The author(s) make no representations or warranties regarding the accuracy or functionality of this software. The use of this code is at your own risk, and the author(s) disclaim any responsibility for any direct, indirect, incidental, or consequential damages arising from its use.
 
@@ -28,7 +28,7 @@ library(htmltools)
 DataBase=fread('Database.csv')
 
 ## Read Reask forecast cat 1 wind probability - as at 06:00 UTC 8th October 2024 
-ProbabiltyFootprint=raster('LiveCyc_al142024_2024100706_ft_gust_exProba_Cat1.tiff')
+ProbabiltyFootprint=raster('LiveCyc_al142024_2024100806_ft_gust_exProba_Cat1.tiff')
 
 ## map database coords to Reask map coords
 X <- DataBase$X
@@ -60,7 +60,7 @@ mypalette = colorBin( palette="Reds", domain=data.to.plot$wind, na.color="transp
 pal =  colorBin( palette="Blues", values(StormData), na.color="transparent") ## storm prob footrprint
 
 # Text for pop up at location 
-mytext=paste("Reask CaT 1 Wind Speed Probability: ", round(data.to.plot$wind),'%', "<br/>", "Name: ", data.to.plot$Name,"<br/>", "DataSet: ", data.to.plot$DataSet, sep="") %>%
+mytext=paste("Reask Cat 1 Wind Speed Probability: ", round(data.to.plot$wind),'%', "<br/>", "Name: ", data.to.plot$Name,"<br/>", "DataSet: ", data.to.plot$DataSet, sep="") %>%
   lapply(htmltools::HTML)
 
 

@@ -22,6 +22,3 @@ Output:
 
 ReaskPlot.html = an interactive map where location level wind speeds can be viewed at each input location. 
 
-Example output can be found here: 
-
-Hovering ouver each locaiton reveals the wind speed probability at the site.

@@ -1,6 +1,6 @@
 ################### Disclaimer ################
 
-## This software is provided "as-is," without any express or implied warranty. In no event shall the author(s) be held liable for any damages arising from the use of this software.
+## This demo code is provided "as-is," without any express or implied warranty. In no event shall the author(s) be held liable for any damages arising from the use of this software.
 
 ## **Non-Commercial Use Only**: This code and associated Reask data "LiveCyc_al142024_2024100806_ft_gust_exProba_Cat1.tiff" is licensed for personal and educational use only. You may not use, distribute, or modify this software or Reask data for any commercial purposes, whether for-profit or non-profit, without explicit permission from the author(s).
 

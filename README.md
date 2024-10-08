@@ -14,7 +14,7 @@ This R sample code takes at risk asset locations from https://city-tampa.opendat
 
 Input
 
-Databse.csv = a databse inlcudling police station, hospitals and fire station locations in Tampa Florida. Source: https://city-tampa.opendata.arcgis.com/search?tags=Locatio
+Databse.csv = a databse inlcudling police station, hospitals and fire station locations in Tampa Florida. Source: https://city-tampa.opendata.arcgis.com/search?tags=Location
 LiveCyc_al142024_2024100706_ft_gust_exProba_Cat1.tiff = Reask cat 1 equaivalent wind speeds probabilities (1km resolution)
 
 Output 

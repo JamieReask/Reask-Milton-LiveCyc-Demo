@@ -19,5 +19,5 @@ LiveCyc_al142024_2024100706_ft_gust_exProba_Cat1.tiff = Reask cat 1 equaivalent 
 
 Output 
 
-ReasPlot.html = an interative map where locaiton level cat 1 wind speeds probabilites can be assess at each location in the asset database
+ReaskPlot.html = an interative map where locaiton level cat 1 wind speeds probabilites can be assess at each location in the asset database
 

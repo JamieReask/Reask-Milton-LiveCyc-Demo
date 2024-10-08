@@ -81,7 +81,7 @@ tag.map.title <- tags$style(HTML("
 "))
 
 title <- tags$div(
-  tag.map.title, HTML("Reask wind-at-site Category 1 Probability")
+  tag.map.title, HTML("Reask wind-at-site Probabilites")
 )  
 
 p = leaflet(data.to.plot) %>%
@@ -89,11 +89,11 @@ p = leaflet(data.to.plot) %>%
   setView(lat=data.to.plot$latitude[1], lng=data.to.plot$longitude[1], zoom=10) %>%
   addProviderTiles("Esri.WorldImagery")  %>%
   addRasterImage(StormData,colors = pal,opacity = 0.7) %>% addLegend(pal = pal, values = values(StormData),
-                                                       title = "Reask Probability of Cat 1 Winds",position='bottomleft') %>%
+                                                       title = "Reask Probability of Cat 1 Winds or Above",position='bottomleft') %>%
   addCircleMarkers(~longitude, ~latitude,
                    fillColor = ~mypalette(wind), fillOpacity = 0.7, color="white", radius=pt.cex, stroke=FALSE,label = mytext,
                    labelOptions = labelOptions( style = list("font-weight" = "normal", padding = "3px 8px"), textsize = "13px", direction = "auto")) %>%
-  addLegend( pal=mypalette, values=~wind, opacity=0.9, title = "Reask Cat 1 Wind Speed Prob at site", position = "bottomright" ) %>%
+  addLegend( pal=mypalette, values=~wind, opacity=0.9, title = "Reask Cat 1 or Above Probability at Site", position = "bottomright" ) %>%
   addControl(title, position = "topleft", className="map-title")
 
 ## plot in R

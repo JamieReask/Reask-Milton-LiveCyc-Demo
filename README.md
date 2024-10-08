@@ -14,12 +14,14 @@ This R demo code takes at risk asset locations from https://city-tampa.opendata.
 
 Input:
 
-Databse.csv = a database including police station, hospitals and fire station locations in Tampa Florida. Source: https://city-tampa.opendata.arcgis.com/search?tags=Location
+Databse.csv = a database including police station, hospitals and fire station locations in Tampa Florida. Source: https://city-tampa.opendata.arcgis.com/search?tags=Location.
 
-LiveCyc_al142024_2024100806_ft_gust_exProba_Cat1.tiff = Reask cat 1 equivalent wind speeds probabilities (1km resolution) at 06:00 UTC on 8th October 2024
+LiveCyc_al142024_2024100806_ft_gust_exProba_Cat1.tiff = Reask cat 1 equivalent wind speeds probabilities (1km resolution) at 06:00 UTC on 8th October 2024.
 
 Output:
 
-ReaskPlot.html = an interactive map where location level wind speeds can be viewed at each input location 
+ReaskPlot.html = an interactive map where location level wind speeds can be viewed at each input location. 
 
 Example output can be found here: 
+
+Hovering ouver each locaiton reveals the wind speed probability at the site.

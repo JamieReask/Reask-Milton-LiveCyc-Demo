@@ -20,5 +20,5 @@ LiveCyc_al142024_2024100806_ft_gust_exProba_Cat1.tiff = Reask cat 1 equivalent w
 
 Output:
 
-ReaskPlot.html = an interactive map where location level wind speeds can be viewed at each input location. 
+ReaskPlot.html = an interactive map where location level cat 1 wind speed probabilities can be viewed at each input location. 
 
